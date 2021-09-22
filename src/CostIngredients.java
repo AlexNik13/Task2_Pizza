@@ -32,7 +32,10 @@ public class CostIngredients {
     }
 
     // цена мясной пицци
-    double costPizzaMeat(PizzaMeat pizza){
+
+
+
+    double costPizza(PizzaMeat pizza){
         double cost;
         cost =  doughCostKg / 1000 * pizza.doughGram +
                 cheeseCostKg / 1000 * pizza.cheeseGram +
@@ -45,7 +48,7 @@ public class CostIngredients {
     }
 
     // цена фермерской пицци
-    double costPizzaFarm(PizzaFarm pizza){
+    double costPizza(PizzaFarm pizza){
         double cost;
         cost = doughCostKg / 1000 * pizza.doughGram +
                 cheeseCostKg / 1000 * pizza.cheeseGram +
@@ -59,7 +62,7 @@ public class CostIngredients {
 
 
     // цена вегеторианской пицци
-    double costPizzaVegan(PizzaVegan pizza){
+    double costPizza(PizzaVegan pizza){
         double cost;
         cost = doughCostKg / 1000 * pizza.doughGram +
                 cheeseCostKg / 1000 * pizza.cheeseGram +

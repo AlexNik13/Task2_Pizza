@@ -1,5 +1,4 @@
 public class PizzaVegan extends Pizza{
-    String namePizza;
     int onionGram;
     int bellPepperGram;
     int broccoliGram;
@@ -9,7 +8,7 @@ public class PizzaVegan extends Pizza{
 
     public PizzaVegan() {
         super();
-        this.namePizza = "Вегетарианская пицца";
+        super.namePizza = "Вегетарианская пицца";
         this.onionGram = 40; // лук
         this.bellPepperGram = 50; // перец болгарский
         this.broccoliGram = 60; // броккали

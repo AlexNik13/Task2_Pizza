@@ -1,5 +1,7 @@
 public class Pizza {
     // Состав всех пицци
+    String namePizza;
+
     int doughGram;
     int cheeseGram;
     int sauseGram;
