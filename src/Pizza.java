@@ -1,4 +1,4 @@
-public abstract class Pizza {
+public class Pizza {
     // Состав всех пицци
     int doughGram;
     int cheeseGram;
@@ -12,4 +12,6 @@ public abstract class Pizza {
         this.sauseGram = 80;
         this.tomatoGram = 40;
     }
+
+
 }

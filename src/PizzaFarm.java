@@ -1,4 +1,5 @@
 public class PizzaFarm extends Pizza{
+    String namePizza;
     int meatGram;
     int baconGram;
     int mushroomsGram;
@@ -6,6 +7,7 @@ public class PizzaFarm extends Pizza{
 
     public PizzaFarm() {
         super();
+        this.namePizza = "Фермерская пицца";
         this.meatGram = 100;
         this.baconGram = 80;
         this.mushroomsGram = 50;
