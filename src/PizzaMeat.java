@@ -1,7 +1,5 @@
 public class PizzaMeat extends Pizza {
-    /*int meatGram;
-    int hamGram;
-    int sausageGram;*/
+
 
     boolean additions = false;
 
@@ -12,6 +10,8 @@ public class PizzaMeat extends Pizza {
         super.hamGram = 150;
         super.sausageGram = 100;
     }
+
+
 
 
 }
