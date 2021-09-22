@@ -74,6 +74,25 @@ public class CostIngredients {
         return cost;
     }
 
+    double costPizza(AuthorPizza pizza){
+        double cost;
+        cost =  doughCostKg / 1000 * pizza.doughGram +
+                cheeseCostKg / 1000 * pizza.cheeseGram +
+                sauseCostKg / 1000 * pizza.sauseGram +
+                tomatoCostKg / 1000 * pizza.tomatoGram +
+                meatCostKg / 1000 * pizza.meatGram +
+                hamCostKg / 1000 * pizza.hamGram +
+                sausageCostKg / 1000 * pizza.sausageGram +
+                baconCostKg / 1000 * pizza.baconGram +
+                mushroomsCostKg / 1000 * pizza.mushroomsGram +
+                onionCostKg / 1000 * pizza.onionGram +
+                bellPepperCostKg / 1000 * pizza.bellPepperGram +
+                broccoliCostKg / 1000 * pizza.broccoliGram +
+                olivesCostKg / 1000 * pizza.olivesGram;
+
+
+        return  cost ;
+    }
 
     // цена вегеторианской пицци
     double costPizza(PizzaVegan pizza){

@@ -55,6 +55,7 @@ public class Customer {
         System.out.println("1. Мясная пица");
         System.out.println("2. Фермерская пица");
         System.out.println("3. Вегатареанская пица");
+        System.out.println("4. Авторская пицца");
         int choice = in.nextInt();
 
         switch (choice){
@@ -66,6 +67,9 @@ public class Customer {
                 break;
             case 3:
                 addPizza[pizzaAdd.length] = new PizzaVegan();
+                break;
+            case 4:
+                addPizza[pizzaAdd.length] = new AuthorPizza();
                 break;
 
         }

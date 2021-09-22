@@ -4,7 +4,6 @@ public class PizzaFarm extends Pizza{
     int mushroomsGram;
     int onionGram;*/
 
-    boolean additions = false;
 
 
     public PizzaFarm() {

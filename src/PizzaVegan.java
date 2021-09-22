@@ -5,7 +5,6 @@ public class PizzaVegan extends Pizza{
     int mushroomsGram;
     int olivesGram;*/
 
-    boolean additions = false;
 
 
     public PizzaVegan() {

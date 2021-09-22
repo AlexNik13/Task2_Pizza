@@ -1,7 +1,6 @@
 public class PizzaMeat extends Pizza {
 
 
-    boolean additions = false;
 
     public PizzaMeat() {
         super();
