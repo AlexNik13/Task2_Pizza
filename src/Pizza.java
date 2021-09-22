@@ -1,11 +1,23 @@
 public class Pizza {
-    // Состав всех пицци
     String namePizza;
 
+    // Состав всех пицци
+    // Основа
     int doughGram;
     int cheeseGram;
     int sauseGram;
     int tomatoGram;
+
+    //Добавки
+    int meatGram;
+    int baconGram;
+    int mushroomsGram;
+    int onionGram;
+    int hamGram;
+    int sausageGram;
+    int bellPepperGram;
+    int broccoliGram;
+    int olivesGram;
 
 
     public Pizza() {
